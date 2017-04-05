@@ -1,0 +1,3 @@
+#!/bin/bash
+
+browserify index -t /Users/guest/Documents/dev/jpi/jpi-schema-transform/index.js -o output.js

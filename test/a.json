@@ -1,0 +1,17 @@
+{
+  "id": "a",
+  "type": "object",
+  "title": "Schema",
+  "description": "Schema desc",
+  "properties": {
+    "token": { "$ref": "./b.json#/properties/token" },
+    "scopes": {
+      "type": "array",
+      "items": {
+        "$ref": "c.json"
+      }
+    }
+  },
+  "required": ["user"],
+  "additionalProperties": false
+}

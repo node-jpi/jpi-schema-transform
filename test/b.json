@@ -1,0 +1,11 @@
+{
+  "id": "b",
+  "type": "object",
+  "title": "Schema",
+  "description": "Schema desc",
+  "properties": {
+    "token": { "type": "string" }
+  },
+  "required": ["token"],
+  "additionalProperties": false
+}

@@ -1,0 +1,11 @@
+{
+  "id": "c",
+  "type": "object",
+  "title": "Schema",
+  "description": "Schema desc",
+  "properties": {
+    "foo": { "type": "string" }
+  },
+  "required": ["foo"],
+  "additionalProperties": false
+}
